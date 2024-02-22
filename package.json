@@ -23,6 +23,7 @@
     "nayan-media-downloader": "^2.0.2",
     "node-fetch": "^3.2.6",
     "path": "^0.12.7",
-    "string-similarity": "^4.0.4"
+    "string-similarity": "^4.0.4",
+    "request": "^2.88.2"
   }
 }
