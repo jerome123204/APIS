@@ -6,7 +6,7 @@ const chalk = require("chalk");
 const { execSync } = require("child_process");
 
 const app = express();
-const port = 2000;
+const port = 3000;
 
 app.use(express.static("public"));
 app.use(bodyParser.json());
