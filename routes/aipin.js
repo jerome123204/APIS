@@ -13,8 +13,8 @@ router.get('/aipin', async (req, res) => {
 
 
     const [aiApiResponse, pinApiResponse] = await Promise.all([
-      axios.get(`https://cc-project-apis-jonell-magallanes.onrender.com/api/ai?question=${content}`),
-      axios.get(`https://cc-project-apis-jonell-magallanes.onrender.com/api/pin?title=${content}&count=10`)
+      axios.get(`https://jeromeee.onrender.com/api/ai?question=${content}`),
+      axios.get(`https://jeromeee.onrender.com/api/pin?title=${content}&count=10`)
     ]);
 
     const combinedResponse = {
